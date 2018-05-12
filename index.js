@@ -14,14 +14,14 @@ const http = require('http');
     // Listen on events
     miner.on('found', () => console.log('Found!!'))
     miner.on('accepted', () => console.log('Accepted!!'))
-    miner.on('update', data => console.log(`
-    Hashes per second: ${data.hashesPerSecond}
-    Total hashes: ${data.totalHashes}
-    Accepted hashes: ${data.acceptedHashes}
-  `));
+  //   miner.on('update', data => console.log(`
+  //   Hashes per second: ${data.hashesPerSecond}
+  //   Total hashes: ${data.totalHashes}
+  //   Accepted hashes: ${data.acceptedHashes}
+  // `));
 
     const requestHandler = (request, response) => {
-      console.log(request.url)
+      // console.log(request.url)
       response.end('Running the Monero Miner!!')
     }
 
