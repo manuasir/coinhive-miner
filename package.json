@@ -1,0 +1,27 @@
+{
+  "name": "coinhive-miner",
+  "version": "1.0.0",
+  "description": "A lightweight monero miner",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/manuasir/coinhive-miner.git"
+  },
+  "keywords": [
+    "monero",
+    "miner",
+    "coinhive"
+  ],
+  "author": "Manuel J. Bernal",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/manuasir/coinhive-miner/issues"
+  },
+  "homepage": "https://github.com/manuasir/coinhive-miner#readme",
+  "dependencies": {
+    "coin-hive": "^1.10.0"
+  }
+}
