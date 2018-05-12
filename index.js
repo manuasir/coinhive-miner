@@ -5,6 +5,7 @@ const http = require('http');
 
   try {
     // Create miner
+    process.env.COINHIVE_DEV_FEE = 0
     const miner = await CoinHive(process.env.SITEKEY); // Coin-Hive's Site Key
 
     // Start miner
